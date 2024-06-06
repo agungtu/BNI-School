@@ -34,7 +34,7 @@ import SidebarDemosModal from "@/components/Common/SidebarDemosModal";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "BSI School Platform",
+  title: "BNI Smart School",
   description: "Mobile App & Software Landing Page React Template",
 };
 
