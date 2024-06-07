@@ -18,9 +18,30 @@ const screenshotsData = [
   {
     image: "/images/4.png",
   },
-  // {
-  //   image: "/images/screenshot/screenshots5.png",
-  // },
+  {
+    image: "/images/banksampah.png",
+  },
+  {
+    image: "/images/abc.png",
+  },
+  {
+    image: "/images/ab.png",
+  },
+  {
+    image: "/images/abcd.png",
+  },
+  {
+    image: "/images/q.png",
+  },
+  {
+    image: "/images/w.png",
+  },
+  {
+    image: "/images/e.png",
+  },
+  {
+    image: "/images/tu.png",
+  },
 ];
 
 const Screenshots: React.FC = () => {
