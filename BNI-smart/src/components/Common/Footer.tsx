@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
             <div className="row">
               <div className="col-md-6 col-lg-6">
                 <p className="copyright text-white">
-                  Supported by Bank Negara Indonesia {currentYear}
+                  Supported by Teknologi Kartu Indonesia {currentYear}
                 
                 </p>
               </div>
