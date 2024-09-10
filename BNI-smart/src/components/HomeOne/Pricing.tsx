@@ -15,8 +15,8 @@ const Pricing: React.FC = () => {
             data-aos-duration="800"
             data-aos-delay="100"
           >
-            <h2 style={{ color: "rgb(239, 90, 38)" }}>Pricing </h2>
-            <h3 className="text-muted">Penawaran Menarik Dari Kami</h3>
+            <h2 style={{ color: "#006677" }}>Pricing </h2>
+            <h3 style={{ color: "#006677" }}>Penawaran Menarik Dari Kami</h3>
           </div>
 
           <div className="row justify-content-center">
@@ -36,8 +36,8 @@ const Pricing: React.FC = () => {
                     height={500}
                   />
                   <div className=" mt-4">
-                    <h4 className="text-muted">Rp 10.000</h4>
-                    <h4 className="text-muted">/ Registrasi User</h4>
+                    <h4 style={{ color: "rgb(239, 90, 38)" }}>Rp 10.000</h4>
+                    <h4 style={{ color: "rgb(239, 90, 38)" }}>/ Registrasi User</h4>
                   </div>
                   <div className="pt-5">
                   <br></br>
@@ -65,8 +65,8 @@ const Pricing: React.FC = () => {
                     height={500}
                   />
                   <div className=" mt-4">
-                    <h4 className="text-muted">Rp 20.000</h4>
-                    <h4 className="text-muted">/ Kartu Pelajar</h4>
+                    <h4 style={{ color: "rgb(239, 90, 38)" }}>Rp 20.000</h4>
+                    <h4 style={{ color: "rgb(239, 90, 38)" }}>/ Kartu Pelajar</h4>
                   </div>
                   <div className="pt-5">
                   <br></br>
@@ -94,10 +94,10 @@ const Pricing: React.FC = () => {
                     height={500}
                   />
                   <div className=" mt-4">
-                    <h4 className="text-muted">Rp 2.500.000</h4>
-                    <h4 className="text-muted">/ Android POS</h4>
-                    <h4 className="text-muted">Rp 1.500.000</h4>
-                    <h4 className="text-muted">/ Mesin Absensi</h4>
+                    <h4 style={{ color: "rgb(239, 90, 38)" }}>Rp 2.500.000</h4>
+                    <h4 style={{ color: "rgb(239, 90, 38)" }}>/ Android POS</h4>
+                    <h4 style={{ color: "rgb(239, 90, 38)" }}>Rp 1.500.000</h4>
+                    <h4 style={{ color: "rgb(239, 90, 38)" }}>/ Mesin Absensi</h4>
                     <br></br>
                     <br></br>
                   </div>
@@ -106,12 +106,12 @@ const Pricing: React.FC = () => {
               </div>
             </div>
             <div className="mt-5">
-              <h4 className="text-center">
+              <h4 className="text-center pt-5" style={{ color: "rgb(239, 90, 38)" }}>
                 Informasi produk dan harga lebih detail
               </h4>
               <center>
                 <div className="price-footer col-sm-3 text-center">
-                  <Link href="https://api.whatsapp.com/send/?phone=6281542553779&text&type=phone_number&app_absent=0" target="_blank" className="purchase-btn" style={{ backgroundColor: "rgb(239, 90, 38)", color : "white" }}>
+                  <Link href="https://api.whatsapp.com/send/?phone=6281542553779&text&type=phone_number&app_absent=0" target="_blank" className="purchase-btn" style={{ backgroundColor: "#006677", color : "white" }}>
                     Hubungi Kami
                   </Link>
                 </div>

@@ -39,8 +39,8 @@
     padding-right: 15px;
   }
   .top-menu .navbar-nav .nav-item .nav-link::before {
-    background: #6a11cb;
-    background: linear-gradient(to right, #6a11cb, #2575fc);
+    background: rgb(239, 90, 38);
+    background: rgb(239, 90, 38);
   }
   .top-menu .navbar-nav .nav-item .nav-link:focus, .top-menu .navbar-nav .nav-item .nav-link:hover {
     color: #000;
@@ -48,10 +48,10 @@
   .top-menu .navbar-nav .active > .nav-link,
   .top-menu .navbar-nav .active > .nav-link:focus,
   .top-menu .navbar-nav .active > .nav-link:hover {
-    color: #6a11cb;
+    color: #000;
   }
   .top-menu .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(106, 17, 203, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239, 90, 38)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
   .homepage-slides .swiper-button-next, .homepage-slides .swiper-button-prev {
     bottom: 30px;

@@ -55,7 +55,7 @@ const HowItWorks: React.FC = () => {
       <section
         id="benefit"
         className="how-it-works"
-        style={{ backgroundColor: " rgb(3, 92, 109)" }}
+        style={{ backgroundColor: " rgb(239, 90, 38)" }}
       >
         <div className="container">
           <div
@@ -64,8 +64,8 @@ const HowItWorks: React.FC = () => {
             data-aos-duration="800"
             data-aos-delay="100"
           >
-            <h2 style={{ color: "rgb(239, 90, 38)" }}>Benefit</h2>
-            <h3 className="text-white">Keuntungan Yang Didapat</h3>
+            <h2 style={{color : "#006677"}}>Benefit</h2>
+            <h3 style={{color : "#006677"}}>Keuntungan Yang Didapat</h3>
           </div>
 
           <div className="row align-items-center">
@@ -81,7 +81,7 @@ const HowItWorks: React.FC = () => {
                       key={i}
                     >
                       <ul>
-                        <li>
+                        <li className="text-white">
                           <h5 className="text-white">{value.title}</h5>
                         </li>
                       </ul>
@@ -101,7 +101,7 @@ const HowItWorks: React.FC = () => {
                       key={i}
                     >
                       <ul>
-                        <li>
+                        <li className="text-white">
                           <h5 className="text-white">{value.title}</h5>
                         </li>
                       </ul>

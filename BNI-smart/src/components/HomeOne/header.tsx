@@ -8,7 +8,7 @@ import Image from "next/image";
 const sliderData = [
   {
     heading:
-      "Go Digital bersama B-School, Jadikan sekolah lebih maju dengan teknologi",
+      "Go Digital bersama BNI Smart School, Jadikan sekolah lebih maju dengan teknologi",
     text: "Selamatkan Waktu, Hemat Energi, Tingkatkan Efisiensi, Teknologi Inovatif untuk Operasional Sekolah yang lebih mudah",
     image: "/images/BNI.png",
   },
@@ -33,19 +33,19 @@ const Slider: React.FC = () => {
             <SwiperSlide key={i}>
               <div
                 className="single-slider-item"
-                style={{ backgroundColor: "#035c6d" }}
+                style={{ backgroundColor: "rgb(239, 90, 38)" }}
               >
                 <div className="slide-item-table">
                   <div className="slide-item-tablecell">
                     <div className="container">
                       <div className="row align-items-center">
-                        <div className="col-md-12 col-lg-7">
+                        <div className="col-md-12">
                           <div className="slider-text">
-                            <h1>{value.heading}</h1>
+                            <h1 className="text-center">{value.heading}</h1>
 
-                            <p>{value.text}</p>
+                            <p className="text-center">{value.text}</p>
 
-                            <div className="slide-button">
+                            <div className="slide-button text-center">
                               {/* <a
                                 href="https://app.dev.solusinegeri.com/BSCHOOL"
                                 target="_blank"
@@ -58,8 +58,8 @@ const Slider: React.FC = () => {
                               <a
                                 href="https://www.youtube.com/watch?v=XM5E0cjedik"
                                 target="_blank"
-                                className="slide-btn-bordered"
-                                style={{ backgroundColor: "rgb(239, 90, 38)" }}
+                                className="slide-btn-bordered text-white"
+                                style={{ backgroundColor: "#006677" }}
                               >
                                 Watch Video
                               </a>
@@ -67,13 +67,13 @@ const Slider: React.FC = () => {
                           </div>
                         </div>
 
-                        <div className="col-md-12 col-lg-5">
+                        <div className="col-md-11" style={{ marginTop: 100 }}>
                           <div className="welcome-phone">
                             <Image
                               src={value.image}
                               alt="App Mockup image"
-                              width={400}
-                              height={500}
+                              width={1000}
+                              height={1000}
                             />
                           </div>
                         </div>

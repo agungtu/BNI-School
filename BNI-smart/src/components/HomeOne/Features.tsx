@@ -58,8 +58,8 @@ const Features: React.FC = () => {
             data-aos-duration="800"
             data-aos-delay="100"
           >
-            <h2 style={{ color: "rgb(239, 90, 38)" }}>User</h2>
-            <h3 className="text-muted">Tersebar di seluruh wilayah Indonesia</h3>
+            <h2 style={{ color: "#006677" }}>User</h2>
+            <h3 style={{ color: "#006677" }}>Tersebar di seluruh wilayah Indonesia</h3>
           </div>
 
           <div className="row justify-content-center">
@@ -67,7 +67,7 @@ const Features: React.FC = () => {
               featuresData.map((value, i) => (
                 <div className="col-md-6 col-lg-4"  key={i}>
                   <div
-                    className="single-feature mb-30" style={{backgroundColor : "rgb(3, 92, 109)"}}
+                    className="single-feature mb-30 rounded-4" style={{backgroundColor : "#006677"}}
                     data-aos="fade-in"
                     data-aos-duration={value.duration}
                     data-aos-delay={value.delay}
