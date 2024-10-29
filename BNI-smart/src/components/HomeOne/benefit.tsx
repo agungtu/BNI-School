@@ -64,8 +64,8 @@ const HowItWorks: React.FC = () => {
             data-aos-duration="800"
             data-aos-delay="100"
           >
-            <h2 style={{color : "#006677"}}>Benefit</h2>
-            <h3 style={{color : "#006677"}}>Keuntungan Yang Didapat</h3>
+            <h2 style={{ color: "#FFF" }}>Benefit</h2>
+            <h3 style={{ color: "#FFF" }}>Keuntungan Yang Didapat</h3>
           </div>
 
           <div className="row align-items-center">
